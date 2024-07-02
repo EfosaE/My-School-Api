@@ -1,10 +1,11 @@
 {
   "name": "myschool-project",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "start": "concurrently \"npm run watch-ts\" \"nodemon dist/server.js\"",
     "watch-ts": "tsc -w",
+    "start:prod": "node dist/server.js",
     "build": "tsc"
   },
   "keywords": [],
