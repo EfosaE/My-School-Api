@@ -6,7 +6,7 @@
     "start": "concurrently \"npm run watch-ts\" \"nodemon dist/server.js\"",
     "watch-ts": "tsc -w",
     "start:prod": "node dist/server.js",
-    "build": "tsc"
+    "build": "tsc && npm run start:prod"
   },
   "keywords": [],
   "author": "",
