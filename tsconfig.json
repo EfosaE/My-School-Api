@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs", // Emit CommonJS modules
+    "moduleResolution": "node", // Use Node.js resolution for module import/export
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true, // Enable interoperability between CommonJS and ES Modules
+    "skipLibCheck": true // Skip type checking of all declaration files (*.d.ts)
+  },
+  "include": [
+    "src/**/*.ts" // Include all TypeScript files under src directory
+  ]
+}
