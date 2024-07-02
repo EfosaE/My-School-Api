@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "types": ["node", "express"],
     "target": "es2020",
     "module": "commonjs", // Emit CommonJS modules
     "moduleResolution": "node", // Use Node.js resolution for module import/export
